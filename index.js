@@ -42,6 +42,7 @@ const SUBMISSION = [
 ]
 
 let isUserLoggedIn = false;
+// for login
 
 app.post('/signup', function(req, res) {
   // Add logic to decode body
